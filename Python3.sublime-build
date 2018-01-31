@@ -1,0 +1,6 @@
+{
+    "cmd": ["/Users/david/dev/venv/home/bin/python", "-u", "$file"],
+    "file_regex": "^[ ]*File \"(…*?)\", line ([0–9]*)",
+    "selector": "source.python",
+    "env": {"PYTHONIOENCODING": "utf8"}
+}

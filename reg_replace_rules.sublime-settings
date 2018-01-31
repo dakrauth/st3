@@ -1,0 +1,19 @@
+{
+	"replacements":
+	{
+		"line_joiner":
+		{
+			"find": " *\\n[ \\n]*",
+			"greedy": false,
+			"name": "Join lines",
+			"replace": ""
+		},
+        "space_killer":
+        {
+            "find": "[ \\t]*",
+            "greedy": false,
+            "name": "Space Killer",
+            "replace": ""
+        }
+	}
+}

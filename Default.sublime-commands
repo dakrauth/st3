@@ -1,0 +1,20 @@
+[
+  {
+    "caption": "Line Joiner",
+    "command": "reg_replace",
+    "args": {
+      "replacements": [
+        "line_joiner",
+      ]
+    }
+  },
+  {
+    "caption": "Kill Spaces",
+    "command": "reg_replace",
+    "args": {
+      "replacements": [
+        "space_killer",
+      ]
+    }
+  }
+]
